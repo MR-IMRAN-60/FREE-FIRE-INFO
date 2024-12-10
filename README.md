@@ -1,6 +1,6 @@
 ### `README.md`
 
-```markdown
+
 # Free Fire Info API Integration
 
 This package provides a simple way to fetch player data from the BD Games API using a player's `loginId` (such as a phone number or account ID).
