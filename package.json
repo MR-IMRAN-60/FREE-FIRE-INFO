@@ -1,0 +1,14 @@
+{
+  "name": "free-fire-info",
+  "version": "1.0.0",
+  "description": "API Create by hamkar imran",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "IMRAN AHMED",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.0.0"
+  }
+}
