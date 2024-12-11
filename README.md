@@ -10,7 +10,7 @@ This package provides a simple way to fetch player data from the BD Games API us
 You can install the package via npm:
 
 ```bash
-npm install free-fire-info
+npm install free-fire-api
 ```
 
 ## Usage
