@@ -20,13 +20,13 @@ npm install free-fire-info
 To fetch player data, use the `uid` function by providing the player's `loginId` (which can be their phone number or account ID). 
 
 ```javascript
-const { uid } = require('free-fire-info');
+const { uid } = require('free-fire-api');
 
-const loginId = '6588242494'; // Replace with a valid login ID
+const loginId = '6605263063'; // Replace with a valid login ID
 
 uid(loginId)
   .then(data => {
-    console.log('Player Data:', data);
+    console.log(data);
   })
   .catch(error => {
     console.error('Error fetching player data:', error.message);
@@ -41,7 +41,7 @@ If the request is successful, you will get player data like the following:
 {
   Region: "BD",         // Player's region (e.g., BD for Bangladesh)
   Nickname: "PlayerNick", // Player's in-game nickname
-  Uid: "6588242494",    // Provided loginId
+  Uid: "6605263063",    // Provided loginId
   Author: "IMRAN AHMED"  // Author's name (can be modified)
 }
 ```
