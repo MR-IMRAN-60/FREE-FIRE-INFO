@@ -1,6 +1,6 @@
 {
   "name": "free-fire-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "API Create by hamkar imran",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/MR-IMRAN-60/FREE-FIRE-INFO"
   },
+  "keywords": [
+  "free fire",
+  "uid to nickname",
+  "free fire api",
+  "ff info",
+  "ff api"
+],
   "author": "IMRAN AHMED",
   "license": "MIT",
   "bugs": {
