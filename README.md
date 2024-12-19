@@ -10,7 +10,7 @@ This package provides a simple way to fetch player data from the BD Games API us
 You can install the package via npm:
 
 ```bash
-npm install free-fire-api
+npm install free-fire-apis
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install free-fire-api
 To fetch player data, use the `uid` function by providing the player's `loginId` (which can be their phone number or account ID). 
 
 ```javascript
-const { uid } = require('free-fire-api');
+const { uid } = require('free-fire-apis');
 
 const loginId = '6605263063'; // Replace with a valid login ID
 
